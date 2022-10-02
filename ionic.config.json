@@ -1,0 +1,7 @@
+{
+  "name": "molde_tela_principal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
