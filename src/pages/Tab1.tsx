@@ -10,11 +10,6 @@ const Tab1: React.FC = () => {
   
   return (
     <IonPage>
-      <IonHeader className='ion-text-center'>
-        <IonToolbar color={"primary"}>
-          <IonTitle size='large'>Manual - Guia Rápido</IonTitle>
-        </IonToolbar>
-      </IonHeader>
       <IonContent className='ion-padding' fullscreen>
         <IonCard>
           <IonImg src='https://marketsplash.com/content/images/2022/06/Compass-logo-1.png'></IonImg>
