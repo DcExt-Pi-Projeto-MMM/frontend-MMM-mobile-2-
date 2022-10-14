@@ -14,28 +14,21 @@ const Tab1: React.FC = () => {
         <IonCard>
           <IonImg src='https://marketsplash.com/content/images/2022/06/Compass-logo-1.png'></IonImg>
           <IonCardHeader>
-            <IonCardTitle>Como usar o aplicativo</IonCardTitle>
+            <IonCardTitle>Como usar o aplicativo?</IonCardTitle>
           </IonCardHeader>
-          <IonCardContent>
-            Esse aplicativo é dividido em três abas: 'Manual', 'Vendas' e a 'Minha Conta'.
-            Essas abas estão na parte de baixo da tela do seu celular. 
-            Abaixo está a explicação de cada um.
-          </IonCardContent>
           <IonItem lines='none' >
             <IonIcon icon={basketOutline} slot="start" />
             <IonLabel>Vender</IonLabel>
           </IonItem>
           <IonCardContent>
-            This is content, without any paragraph or header tags,
-            within an ion-cardContent element.
+            Se deseja anunciar e vender sua colheita, clique em vender. 
           </IonCardContent>
           <IonItem lines='none' >
             <IonIcon icon={personOutline} slot="start" />
             <IonLabel>Minha Conta</IonLabel>
           </IonItem>
           <IonCardContent>
-            This is content, without any paragraph or header tags,
-            within an ion-cardContent element.
+            Aqui você encontra todas as informações relacionadas a sua conta pessoal.
           </IonCardContent>
         </IonCard>
         <IonCard>
