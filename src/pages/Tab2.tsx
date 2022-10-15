@@ -13,10 +13,35 @@ const Tab2: React.FC = () => {
             <IonCardTitle>O que deseja vender?</IonCardTitle>
           </IonCardHeader>
           <IonItem>
-            <IonSelect placeholder="Select fruit">
-              <IonSelectOption value="apples">Apples</IonSelectOption>
-              <IonSelectOption value="oranges">Oranges</IonSelectOption>
-              <IonSelectOption value="bananas">Bananas</IonSelectOption>
+            <IonSelect placeholder="Produto">
+              <IonSelectOption value="alface">Alface</IonSelectOption>
+              <IonSelectOption value="arroz">Arroz</IonSelectOption>
+              <IonSelectOption value="tomate">Tomate</IonSelectOption>
+              <IonSelectOption value="banana">Banana</IonSelectOption>
+              <IonSelectOption value="melancia">Melancia</IonSelectOption>
+              <IonSelectOption value="milho">Milho</IonSelectOption>
+              <IonSelectOption value="feijao">Feijão</IonSelectOption>
+              <IonSelectOption value="abacaxi">Abacaxi</IonSelectOption>
+              <IonSelectOption value="batata">Batata</IonSelectOption>
+              <IonSelectOption value="coentro">Coentro</IonSelectOption>
+              <IonSelectOption value="inhame">Inhame</IonSelectOption>
+              <IonSelectOption value="macaxeira">Macaxeira</IonSelectOption>
+            </IonSelect>
+          </IonItem>
+          <IonItem>
+            <IonSelect placeholder="Quantidade">
+              <IonSelectOption value="alface">2 Kgs</IonSelectOption>
+              <IonSelectOption value="arroz">Arroz</IonSelectOption>
+              <IonSelectOption value="tomate">Tomate</IonSelectOption>
+              <IonSelectOption value="banana">Banana</IonSelectOption>
+              <IonSelectOption value="melancia">Melancia</IonSelectOption>
+              <IonSelectOption value="milho">Milho</IonSelectOption>
+              <IonSelectOption value="feijao">Feijão</IonSelectOption>
+              <IonSelectOption value="abacaxi">Abacaxi</IonSelectOption>
+              <IonSelectOption value="batata">Batata</IonSelectOption>
+              <IonSelectOption value="coentro">Coentro</IonSelectOption>
+              <IonSelectOption value="inhame">Inhame</IonSelectOption>
+              <IonSelectOption value="macaxeira">Macaxeira</IonSelectOption>
             </IonSelect>
           </IonItem>
         </IonCard>
